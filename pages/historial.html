@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Historial Anestésico</title>
+  <link rel="stylesheet" href="../style/style.css">
+  <link rel="stylesheet" href="../style/pages.css">
+  <link rel="stylesheet" href="../style/forms.css">
+</head>
+<body>
+
+  <!-- Encabezado con navegación rápida -->
+  <header class="page-hero">
+    <div class="page-hero-inner">
+      <a class="brand" href="../index.html">Dra. Daniela Lugardo</a>
+      <nav class="page-nav">
+        <a href="preguntas.html">Preguntas</a>
+        <a href="preparacion.html">Preparación</a>
+        <a href="postoperatorio.html">Postoperatorio</a>
+        <a href="videos.html">Videos</a>
+      </nav>
+    </div>
+    <div class="page-hero-content">
+      <p class="eyebrow">Formulario confidencial</p>
+      <h1>Historial Médico Anestésico</h1>
+      <p>Completa esta información para que tu anestesia sea segura y personalizada.</p>
+    </div>
+  </header>
+
+  <main class="page-shell">
+    <!-- Formulario principal -->
+    <section class="form-section">
+      <h2>Historial Médico Anestésico</h2>
+      <p>Este formulario es confidencial y nos ayuda a cuidarte mejor.</p>
+
+      <form>
+        <!-- ================= DATOS GENERALES ================= -->
+        <label>
+          Nombre completo
+          <input type="text" name="nombre" placeholder="Nombre y apellidos" required>
+        </label>
+
+        <label>
+          Edad
+          <input type="number" name="edad" min="0" required>
+        </label>
+
+        <label>
+          Número telefónico
+          <input type="tel" name="telefono" placeholder="Ej. 5512345678" required>
+        </label>
+
+        <label>
+          Tipo de sangre
+          <select name="tipo_sangre" required>
+            <option value="">Seleccione</option>
+            <option>O+</option>
+            <option>O-</option>
+            <option>A+</option>
+            <option>A-</option>
+            <option>B+</option>
+            <option>B-</option>
+            <option>AB+</option>
+            <option>AB-</option>
+          </select>
+        </label>
+
+        <!-- ================= CIRUGÍA ================= -->
+        <label>
+          Procedimiento quirúrgico a realizar
+          <input type="text" name="cirugia" placeholder="Ej. Colecistectomía laparoscópica" required>
+        </label>
+
+        <label>
+          Fecha programada de la cirugía
+          <input type="date" name="fecha_cirugia" required>
+        </label>
+
+        <!-- ================= ANTECEDENTES ================= -->
+        <label>
+          ¿Ha recibido anestesia anteriormente?
+          <select name="anestesia_previa" required>
+            <option value="">Seleccione</option>
+            <option>Sí</option>
+            <option>No</option>
+          </select>
+        </label>
+
+        <label>
+          ¿Presentó alguna complicación con anestesia?
+          <textarea name="complicaciones" rows="2" placeholder="Ej. Náuseas, vómitos, reacción alérgica"></textarea>
+        </label>
+
+        <label>
+          Enfermedades actuales o crónicas
+          <textarea name="enfermedades" rows="2" placeholder="Ej. Diabetes, hipertensión, asma"></textarea>
+        </label>
+
+        <label>
+          Medicamentos que toma actualmente
+          <textarea name="medicamentos" rows="2" placeholder="Ej. Metformina, losartán, aspirina"></textarea>
+        </label>
+
+        <label>
+          Alergias conocidas
+          <textarea name="alergias" rows="2" placeholder="Medicamentos, alimentos, látex, etc."></textarea>
+        </label>
+
+        <!-- ================= HÁBITOS ================= -->
+        <label>
+          ¿Fuma?
+          <select name="fuma">
+            <option>No</option>
+            <option>Sí</option>
+          </select>
+        </label>
+
+        <label>
+          ¿Consume alcohol?
+          <select name="alcohol">
+            <option>No</option>
+            <option>Ocasional</option>
+            <option>Frecuente</option>
+          </select>
+        </label>
+
+        <!-- ================= OBSERVACIONES ================= -->
+        <label>
+          Observaciones importantes
+          <textarea name="observaciones" rows="3" placeholder="Información relevante para la anestesia"></textarea>
+        </label>
+
+        <button type="submit" class="btn">Enviar Historial Anestésico</button>
+      </form>
+    </section>
+
+    <!-- Contacto rápido -->
+    <div class="notice contact-inline">
+      <strong>Contacto:</strong> Si tienes dudas al llenar el formulario, llámanos al
+      <a href="tel:9221257085">9221257085</a> o escribe por
+      <a href="https://wa.me/529221257085" target="_blank" rel="noopener">WhatsApp</a>.
+    </div>
+  </main>
+
+  <footer class="page-footer">
+    <p>&copy; 2025 Dra. Daniela Lugardo. Todos los derechos reservados.</p>
+  </footer>
+
+</body>
+</html>

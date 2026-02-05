@@ -1,0 +1,139 @@
+/* ====== Layout general para paginas internas ====== */
+.page-hero {
+  background: linear-gradient(120deg, #0c7b83 0%, #0a656c 45%, #0b4f55 100%);
+  color: #f5fbfb;
+  padding: 28px 8vw 40px;
+}
+
+.page-hero-inner {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.brand {
+  font-family: "Playfair Display", "Times New Roman", serif;
+  font-size: 1.3rem;
+  color: #f5fbfb;
+  text-decoration: none;
+  letter-spacing: 0.3px;
+}
+
+.page-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  font-weight: 600;
+}
+
+.page-nav a {
+  color: #e4f1f1;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.page-nav a:hover {
+  color: #f2c97d;
+}
+
+.page-hero-content {
+  margin-top: 28px;
+  max-width: 680px;
+  animation: fadeUp 0.8s ease both;
+}
+
+.eyebrow {
+  text-transform: uppercase;
+  letter-spacing: 1.6px;
+  font-size: 0.75rem;
+  color: #d9ecec;
+  margin: 0 0 10px;
+}
+
+.page-shell {
+  padding: 40px 8vw 70px;
+  background: #ffffff;
+}
+
+.page-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 22px;
+}
+
+.info-card {
+  background: #f5fbfb;
+  border-radius: 16px;
+  padding: 22px;
+  box-shadow: 0 8px 18px rgba(12, 27, 30, 0.08);
+  animation: fadeUp 0.8s ease both;
+}
+
+.info-card:nth-child(2) {
+  animation-delay: 0.08s;
+}
+
+.info-card:nth-child(3) {
+  animation-delay: 0.16s;
+}
+
+.info-card:nth-child(4) {
+  animation-delay: 0.24s;
+}
+
+.info-card h3 {
+  margin-top: 0;
+  color: #073a3f;
+}
+
+.pill {
+  display: inline-block;
+  padding: 6px 14px;
+  border-radius: 999px;
+  background: #e3f4f4;
+  color: #0b4f55;
+  font-weight: 600;
+  font-size: 0.82rem;
+}
+
+.notice {
+  margin-top: 28px;
+  padding: 18px 22px;
+  border-radius: 14px;
+  background: #fff7e6;
+  color: #5a3c05;
+}
+
+.notice a {
+  color: #0c7b83;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.notice a:hover {
+  text-decoration: underline;
+}
+
+.contact-inline {
+  background: #eef6f6;
+  color: #0b4f55;
+}
+
+.page-footer {
+  background-color: #0c7b83;
+  color: white;
+  text-align: center;
+  padding: 16px;
+}
+
+@media (max-width: 700px) {
+  .page-hero {
+    text-align: center;
+  }
+
+  .page-nav {
+    justify-content: center;
+  }
+}

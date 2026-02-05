@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 520" role="img" aria-labelledby="title desc">
+  <title id="title">Ilustración de la doctora</title>
+  <desc id="desc">Retrato ilustrado en tonos teal y dorado.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#f5fbfb"/>
+      <stop offset="1" stop-color="#d9eeee"/>
+    </linearGradient>
+    <linearGradient id="coat" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#dfeff0"/>
+    </linearGradient>
+  </defs>
+  <rect width="480" height="520" rx="28" fill="url(#bg)"/>
+  <circle cx="240" cy="150" r="86" fill="#f2c97d"/>
+  <path d="M150 196c24 24 50 36 90 36s70-14 92-36" fill="none" stroke="#0c7b83" stroke-width="10" stroke-linecap="round"/>
+  <rect x="150" y="240" width="180" height="120" rx="40" fill="#0c7b83"/>
+  <path d="M110 500c10-120 70-200 130-220h20c60 20 120 100 130 220" fill="url(#coat)"/>
+  <path d="M240 280v70" stroke="#0c7b83" stroke-width="8" stroke-linecap="round"/>
+  <path d="M214 316h52" stroke="#0c7b83" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="200" cy="140" r="12" fill="#102a2f"/>
+  <circle cx="280" cy="140" r="12" fill="#102a2f"/>
+  <path d="M210 175c18 10 42 10 60 0" stroke="#102a2f" stroke-width="6" stroke-linecap="round" fill="none"/>
+</svg>
