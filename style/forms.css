@@ -44,10 +44,12 @@ form textarea {
   width: 100%;
   box-sizing: border-box;
   background-color: #fbfdfd;
+  min-height: 44px;
 }
 
 form textarea {
   resize: vertical;
+  min-height: 110px;
 }
 
 form .btn {
@@ -55,9 +57,31 @@ form .btn {
   min-width: 240px;
 }
 
+@media (max-width: 900px) {
+  .form-section {
+    margin: -30px 6vw 50px;
+  }
+}
+
 @media (max-width: 700px) {
   .form-section {
     margin: -20px 6vw 40px;
     padding: 24px;
+  }
+
+  form .btn {
+    width: 100%;
+    min-width: 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .form-section {
+    margin: -10px 5vw 36px;
+    padding: 20px;
+  }
+
+  form {
+    gap: 14px;
   }
 }

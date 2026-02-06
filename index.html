@@ -74,19 +74,40 @@
     <div class="img-container">
       <!-- Reemplaza esta imagen por la foto real cuando la tengas -->
       <img src="img/doctora.svg" alt="Dra. Daniela Lugardo" class="about-img">
-  </div>
-</section>
+    </div>
+  </section>
 
   <!-- Contacto rápido -->
   <section class="contact">
     <div class="contact-card">
-      <h2>Contacto directo</h2>
-      <p>¿Tienes dudas o quieres agendar? Elige el canal que prefieras.</p>
-      <div class="contact-actions">
-        <a class="btn btn-ghost" href="tel:9221257085">Llamar</a>
-        <a class="btn" href="https://wa.me/529221257085" target="_blank" rel="noopener">WhatsApp</a>
-        <a class="btn btn-outline-alt" href="mailto:contacto@consultorio.com">Correo</a>
+      <div class="contact-header">
+        <h2>Contacto directo</h2>
+        <p>¿Tienes dudas o quieres agendar? Elige el canal que prefieras.</p>
       </div>
+
+      <div class="contact-grid">
+        <a class="contact-item" href="tel:9221257085">
+          <span class="contact-icon"><i class="fas fa-phone-alt"></i></span>
+          <span class="contact-title">Llamar</span>
+          <span class="contact-desc">Atención inmediata en horario de consultorio.</span>
+          <span class="contact-cta">Marcar ahora</span>
+        </a>
+
+        <a class="contact-item contact-item--primary" href="https://wa.me/529221257085" target="_blank" rel="noopener">
+          <span class="contact-icon"><i class="fab fa-whatsapp"></i></span>
+          <span class="contact-title">WhatsApp</span>
+          <span class="contact-desc">Ideal para dudas rápidas o seguimiento.</span>
+          <span class="contact-cta">Abrir chat</span>
+        </a>
+
+        <a class="contact-item" href="mailto:contacto@consultorio.com">
+          <span class="contact-icon"><i class="fas fa-envelope"></i></span>
+          <span class="contact-title">Correo</span>
+          <span class="contact-desc">Envía documentos o preguntas detalladas.</span>
+          <span class="contact-cta">Enviar correo</span>
+        </a>
+      </div>
+
       <p class="contact-note">Horario sugerido: Lunes a Viernes, 9:00 a 18:00.</p>
     </div>
   </section>
@@ -95,6 +116,11 @@
   <footer>
     <p>&copy; 2025 Dra. Daniela Lugardo. Todos los derechos reservados.</p>
   </footer>
+
+  <!-- Botón flotante de WhatsApp -->
+  <a class="whatsapp-float" href="https://wa.me/529221257085" target="_blank" rel="noopener" aria-label="Abrir WhatsApp">
+    <i class="fab fa-whatsapp"></i>
+  </a>
 
 </body>
 </html>
